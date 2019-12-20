@@ -1,0 +1,33 @@
+# please see https://git-scm.com/docs/git-config
+[color]
+	ui = true
+	branch = true
+	diff = true
+	interactive = true
+	status = true
+[core]
+	editor = vim
+	quotepath = false
+	ignorecase = false
+	autocrlf = input
+[push]
+	default = nothing
+[user]
+	name = hohihohi
+	email = dummy@gmail.com
+[user "https://gitlab.com"]
+	name = hohihohi
+	email = dummy@gmail.com
+[user "https://github.com"]
+	name = hohihohi
+	email = dummy@gmail.com
+[credential]
+	helper = cache --timeout=43200
+# [http]
+# 	proxy = http://proxy.example.com:8080
+[commit]
+	template = $HOME/.commit_template
+[help]
+	autocorrect = 1
+[receive]
+	fsckObjects = true
